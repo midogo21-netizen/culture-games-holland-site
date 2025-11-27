@@ -3,7 +3,6 @@ import meisjesImg from "@/assets/gallery/meisjes-laugh.jpg";
 import spijkerImg from "@/assets/gallery/spijkerpoepen.jpg";
 import selfieImg from "@/assets/gallery/selfie.jpg";
 import windmillsImg from "@/assets/gallery/windmills.jpg";
-import windmillGroupImg from "@/assets/gallery/windmill-group.jpg";
 import painting1Img from "@/assets/gallery/painting-1.jpg";
 import painting2Img from "@/assets/gallery/painting-2.jpg";
 import fransHalsImg from "@/assets/gallery/frans-hals.jpg";
@@ -14,7 +13,6 @@ const galleryImages = [
   { src: spijkerImg, alt: "Teams competing in a fun Dutch game challenge" },
   { src: selfieImg, alt: "Group selfie moment at Culture Games Holland" },
   { src: windmillsImg, alt: "Windmill building activity with team participants" },
-  { src: windmillGroupImg, alt: "Team proudly showing their windmill creation" },
   { src: painting1Img, alt: "Drawing challenge inspired by Dutch masters" },
   { src: painting2Img, alt: "Teams reviewing their artistic creations" },
   { src: fransHalsImg, alt: "Participant sketching a Frans Hals masterpiece" },
