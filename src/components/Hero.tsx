@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/gallery/selfie.jpg";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center pt-20">
+  return <section className="relative min-h-screen flex items-center pt-20">
       <div className="container-narrow mx-auto px-6 py-16 lg:py-24">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Text Content */}
@@ -13,10 +11,7 @@ const Hero = () => {
                 A Dutch Cultural Challenge for{" "}
                 <span className="text-primary">International Teams</span>
               </h1>
-              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
-                A fun, interactive contest where teams compete to become as Dutch as possible — 
-                while learning meaningful cultural insights.
-              </p>
+              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">An experiential learning activity where diverse teams compete, connect, and discover Dutch culture — while strengthening collaboration, communication, and cultural intelligence.</p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -30,13 +25,11 @@ const Hero = () => {
           </div>
 
           {/* Hero Image */}
-          <div className="relative animate-fade-in-right" style={{ animationDelay: "0.2s" }}>
+          <div className="relative animate-fade-in-right" style={{
+          animationDelay: "0.2s"
+        }}>
             <div className="relative rounded-2xl overflow-hidden card-shadow">
-              <img
-                src={heroImage}
-                alt="Culture Games Holland team-building workshop with participants in traditional Dutch costumes taking a fun selfie"
-                className="w-full h-auto object-cover aspect-[4/3]"
-              />
+              <img src={heroImage} alt="Culture Games Holland team-building workshop with participants in traditional Dutch costumes taking a fun selfie" className="w-full h-auto object-cover aspect-[4/3]" />
               <div className="absolute inset-0 bg-gradient-to-t from-foreground/10 to-transparent" />
             </div>
             {/* Decorative accent */}
@@ -45,8 +38,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
