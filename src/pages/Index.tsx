@@ -5,6 +5,7 @@ import CulturalValue from "@/components/CulturalValue";
 import Founders from "@/components/Founders";
 import Gallery from "@/components/Gallery";
 import Testimonials from "@/components/Testimonials";
+import TrustedBy from "@/components/TrustedBy";
 import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
 
@@ -19,6 +20,7 @@ const Index = () => {
         <Founders />
         <Gallery />
         <Testimonials />
+        <TrustedBy />
         <CallToAction />
       </main>
       <Footer />
