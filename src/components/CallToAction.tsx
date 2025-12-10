@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MapPin } from "lucide-react";
-
 const CallToAction = () => {
-  return (
-    <section id="contact" className="section-padding">
+  return <section id="contact" className="section-padding">
       <div className="container-narrow mx-auto">
         <div className="max-w-2xl mx-auto text-center space-y-8">
           <div className="space-y-4">
@@ -12,7 +10,7 @@ const CallToAction = () => {
             </h2>
             
             <div className="flex items-center justify-center gap-2 text-muted-foreground">
-              <MapPin className="w-5 h-5 text-primary" />
+              <MapPin className="h-5 text-primary mx-0 w-[28px] px-0 py-0 mb-[22px]" />
               <p>
                 Hosted anywhere in the Netherlands — Amsterdam, Utrecht, Rotterdam, 
                 The Hague, Eindhoven and beyond.
@@ -30,8 +28,6 @@ const CallToAction = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default CallToAction;
