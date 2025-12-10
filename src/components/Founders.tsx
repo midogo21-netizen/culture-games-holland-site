@@ -1,13 +1,10 @@
 const Founders = () => {
-  return (
-    <section className="section-padding bg-grey-warm">
+  return <section className="section-padding bg-grey-warm">
       <div className="container-narrow mx-auto">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <div className="space-y-4">
             <div className="highlight-bar mx-auto" />
-            <h2 className="text-3xl md:text-4xl font-bold">
-              About the Founders
-            </h2>
+            <h2 className="text-3xl md:text-4xl font-bold">About the Facilitators</h2>
           </div>
 
           <div className="space-y-6 text-muted-foreground leading-relaxed text-lg">
@@ -38,8 +35,6 @@ const Founders = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Founders;
