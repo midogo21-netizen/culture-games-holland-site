@@ -1,4 +1,6 @@
 import { Mail, Phone, MapPin, Linkedin, Instagram } from "lucide-react";
+import footerLogo from "@/assets/logo-footer.png";
+
 const Footer = () => {
   return <footer className="bg-foreground text-background/90">
       <div className="container-narrow mx-auto px-6 py-12">
@@ -6,11 +8,7 @@ const Footer = () => {
           {/* Logo & Tagline */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">
-              </span>
-              </div>
-              <span className="font-semibold text-background">Culture Games Holland</span>
+              <img src={footerLogo} alt="Culture Games Holland" className="h-16 w-auto" />
             </div>
             <p className="text-background/60 text-sm">
               Helping international teams understand and thrive in Dutch work culture.
