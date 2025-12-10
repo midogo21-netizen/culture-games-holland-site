@@ -8,7 +8,7 @@ const Hero = () => {
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-balance">
-                A Dutch Cultural Challenge for{" "}
+                A Dutch Cultural Workshop for{" "}
                 <span className="text-primary">International Teams</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">An experiential learning activity where diverse teams compete, connect, and discover Dutch culture — while strengthening collaboration, communication, and cultural intelligence.</p>
