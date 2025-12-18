@@ -1,4 +1,12 @@
+import { Users, Clock } from "lucide-react";
 import workshopImage from "@/assets/gallery/meisjes-laugh.jpg";
+
+const targetAudiences = [
+  "International employees new to the Netherlands",
+  "Relocated professionals adjusting to a Dutch workplace",
+  "Mixed teams navigating cross-cultural collaboration",
+  "Organisations experiencing friction between Dutch and international staff",
+];
 
 const About = () => {
   return (
@@ -22,25 +30,36 @@ const About = () => {
             <div className="space-y-4">
               <div className="highlight-bar" />
               <h2 className="text-3xl md:text-4xl font-bold">
-                What is Culture Games Holland?
+                Who Is This For?
               </h2>
             </div>
 
-            <div className="space-y-4 text-muted-foreground leading-relaxed">
-              <p>
-                Culture Games Holland is an interactive cultural workshop for international 
-                employees working in the Netherlands. Teams compete in a series of fast-paced 
-                challenges inspired by real Dutch behaviours — from direct communication to 
-                pragmatic problem-solving.
+            <div className="space-y-4">
+              <ul className="space-y-3">
+                {targetAudiences.map((audience, index) => (
+                  <li key={index} className="flex items-start gap-3">
+                    <span className="w-2 h-2 bg-primary rounded-full mt-2 shrink-0" />
+                    <span className="text-muted-foreground">{audience}</span>
+                  </li>
+                ))}
+              </ul>
+
+              <p className="text-muted-foreground leading-relaxed">
+                This workshop is especially effective for teams who want less confusion, 
+                fewer frustrations, and smoother collaboration.
               </p>
-              <p>
-                The format is lively and social, but the learning is real: participants gain 
-                a clearer understanding of how Dutch people communicate, collaborate, and make 
-                decisions.
-              </p>
-              <p className="font-medium text-foreground">
-                Perfect for onboarding, cross-cultural team-building and international teams.
-              </p>
+            </div>
+
+            {/* Practical info badges */}
+            <div className="flex flex-wrap gap-4 pt-2">
+              <div className="flex items-center gap-2 bg-background px-4 py-2 rounded-full border border-border">
+                <Users className="w-4 h-4 text-primary" />
+                <span className="text-sm font-medium">8–15 participants</span>
+              </div>
+              <div className="flex items-center gap-2 bg-background px-4 py-2 rounded-full border border-border">
+                <Clock className="w-4 h-4 text-primary" />
+                <span className="text-sm font-medium">2.5 hours</span>
+              </div>
             </div>
           </div>
         </div>
