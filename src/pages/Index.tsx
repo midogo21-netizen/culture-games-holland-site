@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Problem from "@/components/Problem";
+import Approach from "@/components/Approach";
 import CulturalValue from "@/components/CulturalValue";
 import Takeaways from "@/components/Takeaways";
 import Founders from "@/components/Founders";
@@ -19,6 +20,7 @@ const Index = () => {
         <Hero />
         <About />
         <Problem />
+        <Approach />
         <CulturalValue />
         <Takeaways />
         <Founders />
