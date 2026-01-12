@@ -6,7 +6,6 @@ import Approach from "@/components/Approach";
 import CulturalValue from "@/components/CulturalValue";
 import Takeaways from "@/components/Takeaways";
 import Founders from "@/components/Founders";
-import Gallery from "@/components/Gallery";
 import Testimonials from "@/components/Testimonials";
 import TrustedBy from "@/components/TrustedBy";
 import CallToAction from "@/components/CallToAction";
@@ -24,7 +23,6 @@ const Index = () => {
         <CulturalValue />
         <Takeaways />
         <Founders />
-        <Gallery />
         <Testimonials />
         <TrustedBy />
         <CallToAction />

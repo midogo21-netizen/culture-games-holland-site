@@ -2,9 +2,9 @@ import { CheckCircle, BookOpen } from "lucide-react";
 
 const takeaways = [
   "A clearer understanding of Dutch workplace expectations",
-  "Language to describe Dutch behaviour without judgement",
+  "Language to describe cultural differences without judgement",
   "Practical strategies for communication, feedback, and collaboration",
-  "Increased confidence when navigating unfamiliar cultural situations",
+  "Increased confidence in meetings, decision-making, and daily interactions",
 ];
 
 const Takeaways = () => {
@@ -18,6 +18,9 @@ const Takeaways = () => {
             <h2 className="text-3xl md:text-4xl font-bold">
               What Participants Take Away
             </h2>
+            <p className="text-lg text-muted-foreground">
+              After the workshop, participants leave with:
+            </p>
           </div>
 
           {/* Takeaways list */}
@@ -41,10 +44,13 @@ const Takeaways = () => {
                 Take-Home Guide Included
               </p>
               <p className="text-muted-foreground">
-                Every participant receives a printed guide:{" "}
+                Each participant receives a printed guide:{" "}
                 <span className="italic">
                   "Working with the Dutch: Practical Notes for International Professionals"
                 </span>
+              </p>
+              <p className="text-muted-foreground text-sm">
+                A concise reference they can return to long after the workshop.
               </p>
             </div>
           </div>

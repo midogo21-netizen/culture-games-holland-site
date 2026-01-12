@@ -13,13 +13,9 @@ const Hero = () => {
                 An Experiential Workshop on{" "}
                 <span className="text-primary">Working with the Dutch</span>
               </h1>
-              <p className="text-xl font-bold text-foreground">
-                Not another cultural training.<br />
-                Not a team-building exercise.
-              </p>
               <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
-                Culture Games Holland is a boutique, facilitator-led intercultural workshop 
-                for international professionals working in the Netherlands.
+                When international teams struggle in Dutch workplaces, the issue is rarely technical skill.
+                It's cultural misunderstanding.
               </p>
             </div>
 
