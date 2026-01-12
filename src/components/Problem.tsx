@@ -1,13 +1,13 @@
 const problemPoints = [
-  "People here are too direct — sometimes it feels rude",
-  "Everything is very informal, but then suddenly very strict",
-  "Things move fast, but everyone still wants to discuss everything",
-  "There's no clear hierarchy, but also a lot of individual responsibility",
+  "People are very direct — sometimes it feels rude.",
+  "Everything seems informal, until suddenly it's very strict.",
+  "Decisions feel fast, but everyone still wants endless discussion.",
+  "There's no hierarchy, but a lot of individual responsibility.",
 ];
 
 const Problem = () => {
   return (
-    <section className="section-padding">
+    <section className="section-padding bg-grey-warm">
       <div className="container-narrow mx-auto">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <div className="space-y-4">
@@ -18,15 +18,14 @@ const Problem = () => {
           </div>
 
           <p className="text-lg text-muted-foreground leading-relaxed">
-            When international professionals work in Dutch organisations, they often experience 
-            friction. Common observations sound like this:
+            International professionals often describe Dutch workplaces like this:
           </p>
 
           <div className="grid sm:grid-cols-2 gap-4 text-left">
             {problemPoints.map((point, index) => (
               <div
                 key={index}
-                className="bg-grey-warm p-5 rounded-xl border-l-4 border-primary"
+                className="bg-background p-5 rounded-xl border-l-4 border-primary"
               >
                 <p className="text-muted-foreground italic">"{point}"</p>
               </div>
@@ -34,8 +33,11 @@ const Problem = () => {
           </div>
 
           <p className="text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-            Culture Games Holland helps participants understand why these behaviours exist 
-            and how to work with them, not against them.
+            These observations are accurate — but without context, they lead to frustration, miscommunication, and disengagement.
+          </p>
+
+          <p className="text-foreground font-medium max-w-2xl mx-auto">
+            Culture Games Holland helps participants understand why these behaviours exist, and how to work with them rather than against them.
           </p>
         </div>
       </div>

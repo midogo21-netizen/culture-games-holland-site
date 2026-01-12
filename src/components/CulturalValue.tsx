@@ -11,19 +11,19 @@ const pillars = [
     title: "Egalitarianism",
     subtitle: "Low hierarchy, high individual responsibility",
     description:
-      "Titles and formality matter less than competence and initiative. Employees are expected to speak up, take ownership, and treat each other as equals.",
+      "Titles and formality matter less than competence and initiative. Employees are expected to speak up, take ownership, and treat colleagues as equals.",
   },
   {
     title: "Pragmatism",
     subtitle: "Action before perfection",
     description:
-      'The Dutch focus on practical outcomes. "Good enough" often wins over "perfect but late." Efficiency and problem-solving are prized over form.',
+      'The Dutch focus on practical outcomes. "Good enough" often beats "perfect but late." Efficiency and problem-solving matter more than formality.',
   },
   {
     title: "Consensus & Shared Responsibility",
     subtitle: "Inclusive decisions, collective ownership",
     description:
-      "Major decisions are often made through consultation and agreement. Once made, everyone is expected to support the outcome and share responsibility for results.",
+      "Decisions are often made through discussion and agreement. Once made, everyone is expected to support the outcome and share responsibility for results.",
   },
 ];
 
@@ -39,8 +39,7 @@ const CulturalValue = () => {
               The Four Pillars of Dutch Workplace Culture
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Each game we play is tied to a core cultural concept that shapes how Dutch 
-              professionals communicate, collaborate, and make decisions.
+              Each activity is tied to a core cultural principle that shapes daily working life in the Netherlands.
             </p>
           </div>
 
