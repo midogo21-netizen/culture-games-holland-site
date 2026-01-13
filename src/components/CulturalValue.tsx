@@ -1,4 +1,4 @@
-import valueImage from "@/assets/gallery/windmill-group.jpg";
+
 
 const pillars = [
   {
@@ -63,17 +63,6 @@ const CulturalValue = () => {
             ))}
           </div>
 
-          {/* Image */}
-          <div className="relative max-w-2xl mx-auto">
-            <div className="rounded-2xl overflow-hidden card-shadow">
-              <img
-                src={valueImage}
-                alt="Team members proudly displaying their handmade windmill creation during Culture Games Holland"
-                className="w-full h-auto object-cover aspect-[16/9]"
-              />
-            </div>
-            <div className="absolute -top-4 -right-4 w-20 h-20 bg-orange-light rounded-xl -z-10" />
-          </div>
         </div>
       </div>
     </section>
