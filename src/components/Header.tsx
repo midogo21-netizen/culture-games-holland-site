@@ -7,7 +7,7 @@ const Header = () => {
       <nav className="container-narrow mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" className="flex items-center gap-3">
           <img src={logo} alt="Culture Games Holland" className="h-14 w-auto" />
-          <span className="font-semibold text-foreground hidden sm:block">Culture Games Holland</span>
+          <span className="font-semibold text-primary hidden sm:block">Culture Games Holland</span>
         </a>
         
         <div className="hidden md:flex items-center gap-8">
