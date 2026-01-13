@@ -1,5 +1,5 @@
 import { Users, Clock, MapPin } from "lucide-react";
-import workshopImage from "@/assets/gallery/meisjes-laugh.jpg";
+import workshopImage from "@/assets/gallery/group-mind.jpg";
 
 const About = () => {
   return (
