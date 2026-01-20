@@ -3,7 +3,7 @@ import workshopImage from "@/assets/gallery/group-mind.jpg";
 
 const About = () => {
   return (
-    <section id="about" className="section-padding pt-4">
+    <section id="about" className="section-padding pt-4 pb-8">
       <div className="container-narrow mx-auto">
         {/* Intro Section */}
         <div className="max-w-3xl mx-auto text-center space-y-6 mb-16">
