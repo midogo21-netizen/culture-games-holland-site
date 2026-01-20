@@ -3,7 +3,7 @@ import heroImage from "@/assets/gallery/frans-hals-hero.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[85vh] flex items-center pt-20 pb-8">
+    <section className="relative min-h-[75vh] flex items-center pt-20 pb-6">
       <div className="container-narrow mx-auto px-6 py-16 lg:py-24">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Text Content */}
