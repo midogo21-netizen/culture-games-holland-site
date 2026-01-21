@@ -1,5 +1,6 @@
 const Founders = () => {
-  return <section className="section-padding bg-grey-warm">
+  return (
+    <section className="section-padding bg-grey-warm">
       <div className="container-narrow mx-auto">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <div className="space-y-4">
@@ -17,20 +18,18 @@ const Founders = () => {
             </p>
 
             <div className="text-left space-y-4 max-w-2xl mx-auto">
-              <p>Rory has led communication and improvisation-based workshops in corporate settings, helping teams improve listening, feedback, and collaboration. He also brings deep, applied knowledge of Dutch culture, developed through years of work translating Dutch norms and behaviour for international audiences in professional contexts.
-
-
-Mehdi iMehdi is a passionate host, workshop facilitator, and polyglot who has worked with international groups across multiple countries. Having lived between cultures, he understands how small cultural differences can create friction at work. He combines strong knowledge of Dutch workplace culture with humour and clear facilitation to help international teams connect and collaborate more smoothly.<span className="font-semibold text-foreground">Rory</span> has led 
-                communication and improvisation-based workshops in corporate settings, 
-                helping teams improve listening, feedback, and collaboration. He also 
-                brings deep, applied knowledge of Dutch culture, developed through years 
-                of work translating Dutch norms and behaviour for international audiences 
-                in professional contexts.
+              <p>
+                <span className="font-semibold text-foreground">Mehdi</span> is a passionate host, workshop facilitator, and polyglot who has worked with international groups across multiple countries. Having lived between cultures, he understands how small cultural differences can create friction at work. He combines strong knowledge of Dutch workplace culture with humour and clear facilitation to help international teams connect and collaborate more smoothly.
+              </p>
+              <p>
+                <span className="font-semibold text-foreground">Rory</span> has led communication and improvisation-based workshops in corporate settings, helping teams improve listening, feedback, and collaboration. He also brings deep, applied knowledge of Dutch culture, developed through years of work translating Dutch norms and behaviour for international audiences in professional contexts.
               </p>
             </div>
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Founders;
