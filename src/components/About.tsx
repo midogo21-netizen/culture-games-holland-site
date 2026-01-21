@@ -30,14 +30,14 @@ const About = () => {
             </p>
 
             <ul className="space-y-3">
-              {["International employees struggle with Dutch directness and feedback", "Meetings feel confusing, inefficient, or unexpectedly confrontational", "Teams misinterpret informality as a lack of structure", "Decision-making feels slow despite an emphasis on efficiency", "Onboarding explains policies, but not behaviour"].map((item, index) => <li key={index} className="flex items-start gap-3">
+              {["International employees struggle with Dutch directness and feedback", "Meetings feel confusing, inefficient, or unexpectedly confrontational", "Teams mistake informality as a lack of structure", "Decision-making feels slow despite an emphasis on efficiency", "Onboarding covers policies, not behaviours"].map((item, index) => <li key={index} className="flex items-start gap-3">
                   <span className="w-2 h-2 bg-primary rounded-full mt-2 shrink-0" />
                   <span className="text-muted-foreground">{item}</span>
                 </li>)}
             </ul>
 
             <p className="text-foreground font-medium">
-              If your teams are technically strong but culturally misaligned, this workshop closes that gap.
+              If your teams are technically strong but culturally misaligned, this workshop closes that gap
             </p>
           </div>
 
