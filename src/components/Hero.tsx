@@ -11,7 +11,7 @@ const Hero = () => {
                 An Experiential Workshop on{" "}
                 <span className="text-primary">Working with the Dutch</span>
               </h1>
-              <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">When international teams struggle in Dutch workplaces, it's not about technical skill. It's cultural misunderstanding</p>
+              <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">A playful, experience-based workshop that improves communication, trust, and collaboration in multicultural teams.</p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">

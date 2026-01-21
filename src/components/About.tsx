@@ -40,7 +40,7 @@ Through structured, gamified challenges, participants learn how Dutch workplace 
             </ul>
 
             <p className="text-foreground font-medium">
-              If your teams are technically capable but culturally misaligned, this workshop addresses the gap.
+              If your teams are technically strong but culturally misaligned, this workshop closes that gap.
             </p>
           </div>
 
