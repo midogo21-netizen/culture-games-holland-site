@@ -5,16 +5,13 @@ const About = () => {
       <div className="container-narrow mx-auto">
         {/* Intro Section */}
         <div className="max-w-3xl mx-auto text-center space-y-6 mb-16">
-          <p className="text-lg text-muted-foreground leading-relaxed">Culture Games Holland is a facilitator-led intercultural workshop designed for international professionals working in the Netherlands.
-Through structured, gamified challenges, participants learn how Dutch workplace culture actually functions — and how to collaborate within it confidently and effectively.</p>
+          <p className="text-lg text-muted-foreground leading-relaxed">Culture Games Holland is a facilitator-led intercultural workshop designed for international professionals working in the Netherlands. Through structured, gamified challenges, participants learn how Dutch workplace culture actually functions — and how to collaborate within it confidently and effectively.</p>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p className="font-medium text-foreground">
               This is not a lecture.<br />
               It is not a checklist of do's and don'ts.
             </p>
-            <p>
-              It is a practical, experience-based intervention for organisations that want smoother collaboration and faster integration of international talent.
-            </p>
+            <p>It is a practical, experience-based workshop that helps teams work better together.</p>
           </div>
         </div>
 
