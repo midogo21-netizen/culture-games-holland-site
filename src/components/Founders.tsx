@@ -1,12 +1,12 @@
 const Founders = () => {
   return (
-    <section className="section-padding bg-grey-warm">
+    <section id="founders" className="section-padding bg-grey-warm">
       <div className="container-narrow mx-auto">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <div className="space-y-4">
             <div className="highlight-bar mx-auto" />
             <h2 className="text-3xl md:text-4xl font-bold">
-              Facilitation & Background
+              Facilitation &amp; Background
             </h2>
           </div>
 
