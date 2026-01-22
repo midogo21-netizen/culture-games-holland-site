@@ -16,7 +16,7 @@ const CallToAction = () => {
             </p>
 
             <p className="text-foreground font-medium">
-              Get in touch to discuss availability, pricing, or a pilot workshop.
+              Get in touch to discuss availability, pricing, or to design a session for your team.
             </p>
           </div>
 
