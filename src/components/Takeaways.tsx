@@ -1,10 +1,10 @@
 import { CheckCircle, BookOpen } from "lucide-react";
 
 const takeaways = [
-  "A clearer understanding of Dutch workplace expectations",
+  "Clear expectations about how Dutch teams communicate and make decisions",
   "Language to describe cultural differences without judgement",
   "Practical strategies for communication, feedback, and collaboration",
-  "Increased confidence in meetings, decision-making, and daily interactions",
+  "Greater confidence in meetings, feedback conversations, and decision-making",
 ];
 
 const Takeaways = () => {
