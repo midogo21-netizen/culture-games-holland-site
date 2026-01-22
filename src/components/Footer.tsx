@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Linkedin, Instagram } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin } from "lucide-react";
 import footerLogo from "@/assets/logo-footer.png";
 
 const Footer = () => {
@@ -30,16 +30,18 @@ const Footer = () => {
           </div>
 
           {/* Social */}
-          <div className="space-y-3">
-            <h4 className="font-semibold text-background mb-4">Follow Us</h4>
-            <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-lg bg-background/10 flex items-center justify-center hover:bg-primary transition-colors" aria-label="LinkedIn">
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-lg bg-background/10 flex items-center justify-center hover:bg-primary transition-colors" aria-label="Instagram">
-                <Instagram className="w-5 h-5" />
-              </a>
-            </div>
+          <div className="flex gap-4">
+  <a
+    href="https://www.linkedin.com/company/culturegamesholland"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 rounded-lg bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"
+    aria-label="LinkedIn"
+  >
+    <Linkedin className="w-5 h-5 transition-colors" />
+  </a>
+</div>
+
           </div>
         </div>
 
