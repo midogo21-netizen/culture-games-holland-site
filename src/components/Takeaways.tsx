@@ -3,7 +3,7 @@ import { CheckCircle, BookOpen } from "lucide-react";
 const takeaways = [
   "Clear expectations about how Dutch teams communicate and make decisions",
   "Language to describe cultural differences without judgement",
-  "Practical strategies for communication, feedback, and collaboration",
+  "Stronger team performance through cultural alignment",
   "Greater confidence in meetings, feedback conversations, and decision-making",
 ];
 
