@@ -1,14 +1,19 @@
-import { Mail, Phone, MapPin, Linkedin } from "lucide-react";
+import { Mail, Phone, Linkedin } from "lucide-react";
 import footerLogo from "@/assets/logo-footer.png";
 
 const Footer = () => {
-  return <footer className="bg-foreground text-background/90">
+  return (
+    <footer className="bg-foreground text-background/90">
       <div className="container-narrow mx-auto px-6 py-12">
         <div className="grid md:grid-cols-3 gap-8 items-start">
           {/* Logo & Tagline */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <img src={footerLogo} alt="Culture Games Holland" className="h-16 w-auto" />
+              <img
+                src={footerLogo}
+                alt="Culture Games Holland"
+                className="h-16 w-auto"
+              />
             </div>
             <p className="text-background/60 text-sm">
               Helping international teams understand and thrive in Dutch work culture.
@@ -18,34 +23,38 @@ const Footer = () => {
           {/* Contact Info */}
           <div className="space-y-3">
             <h4 className="font-semibold text-background mb-4">Contact</h4>
-            <a href="mailto:info@culturegamesholland.com" className="flex items-center gap-3 text-background/70 hover:text-primary transition-colors text-sm">
+            <a
+              href="mailto:info@culturegamesholland.com"
+              className="flex items-center gap-3 text-background/70 hover:text-primary transition-colors text-sm"
+            >
               <Mail className="w-4 h-4" />
               info@culturegamesholland.com
             </a>
-            <a href="tel:+31612345678" className="flex items-center gap-3 text-background/70 hover:text-primary transition-colors text-sm">
+            <a
+              href="tel:+31640494002"
+              className="flex items-center gap-3 text-background/70 hover:text-primary transition-colors text-sm"
+            >
               <Phone className="w-4 h-4" />
               +31 6 40494002
             </a>
-            
           </div>
 
           {/* Social */}
           <div className="space-y-3">
-  <h4 className="font-semibold text-background mb-4">Follow Us</h4>
-  <div className="flex gap-4">
-    <a
-      href="https://www.linkedin.com/company/culturegamesholland"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="w-10 h-10 rounded-lg bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"
-      aria-label="LinkedIn"
-    >
-      <Linkedin className="w-5 h-5 transition-colors" />
-    </a>
-  </div>
-</div>
-</div>
-</div>
+            <h4 className="font-semibold text-background mb-4">Follow Us</h4>
+            <div className="flex gap-4">
+              <a
+                href="https://www.linkedin.com/company/culturegamesholland"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-lg bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="w-5 h-5 transition-colors" />
+              </a>
+            </div>
+          </div>
+        </div>
 
         <div className="border-t border-background/10 mt-10 pt-6">
           <p className="text-center text-background/50 text-sm">
@@ -53,6 +62,8 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>;
+    </footer>
+  );
 };
+
 export default Footer;
