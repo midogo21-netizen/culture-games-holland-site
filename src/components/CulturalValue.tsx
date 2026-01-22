@@ -39,7 +39,7 @@ const CulturalValue = () => {
               The Four Pillars of Dutch Workplace Culture
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Each activity is tied to a core cultural principle that shapes daily working life in the Netherlands.
+              Each activity in the workshop connects directly to one of these cultural principles.
             </p>
           </div>
 
