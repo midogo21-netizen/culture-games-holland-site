@@ -30,20 +30,22 @@ const Footer = () => {
           </div>
 
           {/* Social */}
-          <div className="flex gap-4">
-  <a
-    href="https://www.linkedin.com/company/culturegamesholland"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="w-10 h-10 rounded-lg bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"
-    aria-label="LinkedIn"
-  >
-    <Linkedin className="w-5 h-5 transition-colors" />
-  </a>
+          <div className="space-y-3">
+  <h4 className="font-semibold text-background mb-4">Follow Us</h4>
+  <div className="flex gap-4">
+    <a
+      href="https://www.linkedin.com/company/culturegamesholland"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-10 h-10 rounded-lg bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"
+      aria-label="LinkedIn"
+    >
+      <Linkedin className="w-5 h-5 transition-colors" />
+    </a>
+  </div>
 </div>
-
-          </div>
-        </div>
+</div>
+</div>
 
         <div className="border-t border-background/10 mt-10 pt-6">
           <p className="text-center text-background/50 text-sm">
