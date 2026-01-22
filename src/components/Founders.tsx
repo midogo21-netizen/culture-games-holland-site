@@ -1,6 +1,5 @@
 const Founders = () => {
-  return (
-    <section id="founders" className="section-padding bg-grey-warm">
+  return <section id="founders" className="section-padding bg-grey-warm">
       <div className="container-narrow mx-auto">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <div className="space-y-4">
@@ -11,11 +10,7 @@ const Founders = () => {
           </div>
 
           <div className="space-y-6 text-muted-foreground leading-relaxed text-lg">
-            <p className="font-medium text-foreground text-xl">
-              Culture Games Holland is delivered by Rory and Mehdi, facilitators with 
-              extensive experience working with international professionals, multicultural 
-              teams, and organisations navigating cultural complexity.
-            </p>
+            <p className="font-medium text-foreground text-xl px-[33px]">Culture Games Holland is delivered by Rory and Mehdi, facilitators who combine cultural insight with strong group facilitation.</p>
 
             <div className="text-left space-y-4 max-w-2xl mx-auto">
               <p>
@@ -28,8 +23,6 @@ const Founders = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Founders;
