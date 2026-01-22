@@ -14,10 +14,10 @@ const Founders = () => {
 
             <div className="text-left space-y-4 max-w-2xl mx-auto">
               <p>
-                <span className="font-semibold text-foreground">Rory</span> has led communication and improvisation-based workshops in corporate settings, helping teams improve listening, feedback, and collaboration. He also brings deep, applied knowledge of Dutch culture, developed through years of work translating Dutch norms and behaviour for international audiences in professional contexts.
+                <span className="font-semibold text-foreground">Rory</span> has led communication and improvisation-based workshops in corporate settings, helping teams improve listening, feedback, and collaboration. He also brings deep, applied knowledge of Dutch culture, developed through years of helping international professionals navigate Dutch workplace culture.
               </p>
               <p>
-                <span className="font-semibold text-foreground">Mehdi</span> is a passionate host, workshop facilitator, and polyglot who has worked with international groups across multiple countries. Having lived between cultures, he understands how small cultural differences can create friction at work. He combines strong knowledge of Dutch workplace culture with humour and clear facilitation to help international teams connect and collaborate more smoothly.
+                <span className="font-semibold text-foreground">Mehdi</span> is a passionate host, workshop facilitator, and polyglot who has worked with international groups across multiple countries. He combines strong knowledge of Dutch workplace culture with humour and clear facilitation to help international teams connect and collaborate more smoothly.
               </p>
             </div>
           </div>
