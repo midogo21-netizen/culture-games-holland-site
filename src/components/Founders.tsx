@@ -17,13 +17,13 @@ const Founders = () => {
 
             <div className="text-left space-y-4 max-w-2xl mx-auto">
               <div className="flex items-start gap-4">
-                <img src={roryPhoto} alt="Rory" className="w-16 h-16 rounded-full object-cover shrink-0" />
+                <img src={roryPhoto} alt="Rory" className="w-20 h-20 rounded-full object-cover shrink-0" />
                 <p>
                   <span className="font-semibold text-foreground">Rory</span> has led communication and improvisation-based workshops in corporate settings, helping teams improve listening, feedback, and collaboration. He also brings deep, applied knowledge of Dutch culture, developed through years of helping international professionals navigate Dutch workplace culture.
                 </p>
               </div>
               <div className="flex items-start gap-4">
-                <img src={mehdiPhoto} alt="Mehdi" className="w-16 h-16 rounded-full object-cover shrink-0" />
+                <img src={mehdiPhoto} alt="Mehdi" className="w-20 h-20 rounded-full object-cover shrink-0" />
                 <p>
                   <span className="font-semibold text-foreground">Mehdi</span> is a passionate host, workshop facilitator, and polyglot who has worked with international groups across multiple countries. He combines strong knowledge of Dutch workplace culture with humour and clear facilitation to help international teams connect and collaborate more smoothly.
                 </p>
