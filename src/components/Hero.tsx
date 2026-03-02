@@ -29,7 +29,7 @@ const Hero = () => {
           animationDelay: "0.2s"
         }}>
             <div className="relative rounded-2xl overflow-hidden card-shadow">
-              <img src={heroImage} alt="Culture Games Holland team-building workshop with participants in traditional Dutch costumes taking a fun selfie" className="w-full h-auto object-cover aspect-[4/3]" />
+              <img src={heroImage} alt="When international teams struggle in Dutch workplaces, the challenge is rarely technical. It's cultural. Culture Games Holland is a facilitator-led workshop that turns Dutch work culture into something teams can experience, discuss, and apply immediately." className="w-full h-auto object-cover aspect-[4/3]" />
               <div className="absolute inset-0 bg-gradient-to-t from-foreground/10 to-transparent" />
             </div>
             {/* Decorative accent */}

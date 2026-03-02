@@ -44,7 +44,7 @@ const About = () => {
           {/* Image */}
           <div className="relative">
             <div className="rounded-2xl overflow-hidden card-shadow">
-              <img src={workshopImage} alt="Participants laughing together during a Culture Games Holland workshop activity" className="w-full h-auto object-cover aspect-[4/3]" />
+              <img src={workshopImage} alt="When international teams struggle in Dutch workplaces, the challenge is rarely technical. It's cultural." className="w-full h-auto object-cover aspect-[4/3]" />
             </div>
             <div className="absolute -bottom-4 -left-4 w-20 h-20 bg-primary/10 rounded-xl -z-10" />
           </div>
